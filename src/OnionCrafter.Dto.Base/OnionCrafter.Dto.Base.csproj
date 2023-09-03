@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <Description>Provides a lightweight foundation for Data Transfer Objects (DTOs) in .NET 7, offering abstract base classes and interfaces to streamline the development of DTOs for various application layers.</Description>
+	  <VersionPrefix>1.0.0</VersionPrefix>
+
+	  <GenerateDocumentationFile>True</GenerateDocumentationFile>
+	  <IncludeSymbols>True</IncludeSymbols>
+	  <Copyright>Copyright 2023 Dtopiast</Copyright>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <AssemblyVersion>$(VersionPrefix)</AssemblyVersion>
+	  <FileVersion>$(VersionPrefix)</FileVersion>
+	  <Version>$(VersionPrefix)</Version>
+	  <Authors>Dtopiast</Authors>
+	  <RepositoryType>git</RepositoryType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageIcon>JustLogo.png</PackageIcon>
+    <PackageTags>data-transfer-objects, .net-7, lightweight-library, data-serialization, object-mapping, DTO-design, application-layers, software-development</PackageTags>
+    <RepositoryUrl>https://github.com/Dtopiast/OnionCrafter.Dto.Base</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\Images\JustLogo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
